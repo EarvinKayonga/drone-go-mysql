@@ -9,7 +9,7 @@ pipeline:
       - go get -v
       - go test -v -cover
 
-database:
+services:
   database:
     image: mysql:5.6.27
     environment:
